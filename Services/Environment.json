@@ -1,0 +1,11 @@
+{
+    "name": "Environment api",
+    "includes": ["BaseService.json"],
+    "operations": {
+        "getEnvironment": {
+            "extends": "abstract.get",
+            "uri": "/api/environment/v1",
+            "summary": "Get env"
+        }
+        }
+}
